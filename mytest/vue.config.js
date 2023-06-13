@@ -142,7 +142,7 @@ module.exports = {
         // target: process.env.VUE_APP_BASEURL,//服务器代理的baseUrl
         //target: 'http://10.0.124.20:8090/xzl',
         //target: 'http://10.0.124.20:8030/xzl',
-        target: 'http://10.0.124.20:8080/xzl',
+        target: 'http://10.0.124.20:8080',
         ws: true, // 是否代理websocket
         changeOrigin: true,//将主机头的来源更改为目标URL，也就是是否允许跨域
         pathRewrite: {// 重写路径: 去掉路径中开头的'/api'
