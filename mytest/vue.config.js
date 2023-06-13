@@ -14,9 +14,9 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: "/xzl", // 打包的输出路径
+  publicPath: "./", // 打包的输出路径
   // 假设部署路径再 https://www.my-app.com/xzl/ 因此需要设置：publicPath: "/xzl"
-  outputDir: "xzl", // 打包后的文件 默认为dist -> 若是项目名称为xzl 那么配合之 修改为xzl
+  outputDir: "dist", // 打包后的文件 默认为dist -> 若是项目名称为xzl 那么配合之 修改为xzl
   productionSourceMap: true, // 生产环境是否生成 sourceMap 文件
 
   // 配置别名
